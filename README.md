@@ -26,7 +26,7 @@ runtime "electron"
 12) When done, run "yarn watch"
 13) Do "./scripts/code.sh" (You may need to hit CMD + SHIFT + (.) before)
 14) Close the editor and go back to terminal
-15) run "npm run gulp vscode-darwin-min"
+15) run "npm run gulp vscode-darwin-x64-min"
 
 
 #Extensions:
