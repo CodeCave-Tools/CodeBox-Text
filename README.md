@@ -9,16 +9,24 @@ New features, UI Changes, and more will be coming to CodeBox Edit.
 These instructions are for mac and have not been tested for other platforms.
 
 1) Clone the repository to your device
-2) Install Node Version Manager (https://github.com/nvm-sh/nvm)
-3) Use "nvm install 10.24.0" to install node 10.24.0
-4) Use "nvm use 10.24.0" to use node 10.24.0
-5) Install yarn using "npm install yarn --global"
-6) CD to where you cloned the repository
-7) Enter "yarn" in terminal
-8) When done, run "yarn watch"
-9) Do "./scripts/code.sh" (You may need to hit CMD + SHIFT + (.) before)
-10) Close the editor and go back to terminal
-11) run "npm run gulp vscode-darwin-min"
+2) Open up a text editor of your choice and make a file called .yarnrc
+3) Save the file in the repository clone
+4) Enter the following inside .yarnrc
+
+disturl "https://electronjs.org/headers"
+target "12.0.4"
+runtime "electron"
+
+5) Install Node Version Manager (https://github.com/nvm-sh/nvm)
+6) Use "nvm install 10.24.0" to install node 10.24.0
+8) Use "nvm use 10.24.0" to use node 10.24.0
+9) Install yarn using "npm install yarn --global"
+10) CD to where you cloned the repository
+11) Enter "yarn" in terminal
+12) When done, run "yarn watch"
+13) Do "./scripts/code.sh" (You may need to hit CMD + SHIFT + (.) before)
+14) Close the editor and go back to terminal
+15) run "npm run gulp vscode-darwin-min"
 
 
 #Extensions:
